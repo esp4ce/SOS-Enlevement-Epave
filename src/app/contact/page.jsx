@@ -46,7 +46,7 @@ export default function Contact() {
 
   return (
     <>
-      <div className="flex flex-col items-center pt-12 text-5xl font-extrabold text-blue-500">
+      <div className="flex flex-col items-center pt-12 text-4xl font-extrabold text-blue-500">
         Vous avez une question ?
       </div>
 
@@ -60,7 +60,7 @@ export default function Contact() {
 
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
+              <label className="block text-gray-700 text-sm mb-2" htmlFor="email">
                 Votre adresse email*
               </label>
               <input
@@ -73,7 +73,7 @@ export default function Contact() {
             </div>
 
             <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="phone">
+              <label className="block text-gray-700 text-sm mb-2" htmlFor="phone">
                 Votre téléphone
               </label>
               <input
@@ -85,7 +85,7 @@ export default function Contact() {
             </div>
 
             <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
+              <label className="block text-gray-700 text-sm mb-2" htmlFor="name">
                 Votre nom et prénom*
               </label>
               <input
@@ -98,7 +98,7 @@ export default function Contact() {
             </div>
 
             <div className="mb-6">
-              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="message">
+              <label className="block text-gray-700 text-sm mb-2" htmlFor="message">
                 Votre message*
               </label>
               <textarea
